@@ -1,0 +1,44 @@
+# 빌드 산출물
+build/
+out/
+target/
+bin/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle / Maven
+.gradle/
+!gradle-wrapper.properties
+
+# 편집기
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# 로컬 환경·비밀정보 — 절대 커밋하지 않는다
+.env
+.env.*
+application-local.yml
+application-local.yaml
+application-local.properties
+secrets.properties
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# 로그
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
